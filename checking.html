@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Click form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body class="background">
+    <h1>💕💕Welcomew Love Birds💕💕</h1>
+    <p> </p>
+    <div>
+     <img class="couple" src="love1.jpg" alt="couple image">
+      <form  action="index.html" method="post">
+      <input type="checkbox" name=" " value="Click">
+      <label for="text"> </label>
+      <input type="submit" name=" " value="Goback">
+      </form>
+      <script>
+         var name = prompt("Enter your name,","Enter..,");
+         var friend  = prompt("Enter Friend name,","Enter..,");
+         var loveScore = Math.random();
+         loveScore=loveScore * 100;
+         loveScore=Math.floor(loveScore) + 1;
+         if(loveScore >= 90)
+         {
+             alert(name + " and " + friend + " are best friends. You're loveScore is : " +  loveScore + " %.");
+             alert( "Wish you Happy Valentance Day ");
+         }
+         else if(loveScore >= 65)
+         {
+             alert(name + " and " + friend + "  both True FriendS .You're loveScore :   " + loveScore +  "%.");
+             alert( "Wish you Happy Valentance Day ");
+         }
+         else if(loveScore >= 30)
+         {
+             alert("You're True  friends. And both loveScore :   " + loveScore +  "%.");
+             alert( "Wish you Happy Valentance Day ");
+         }
+         else if(loveScore >= 10)
+         {
+
+            alert("You're loveScore :   " + loveScore +  "%.");
+            alert( "Wish you Happy Valentance Day ");
+         }
+         else
+         {
+           alert(" loveScore : ");
+           alert( "Wish you Happy Valentance Day ");
+         }
+        </script>
+    </div>
+  </body>
+</html>
